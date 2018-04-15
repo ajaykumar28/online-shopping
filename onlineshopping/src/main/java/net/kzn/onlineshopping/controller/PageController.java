@@ -34,7 +34,7 @@ public class PageController {
 	}
 	*/
 	
-	
+
 	
 	@RequestMapping(value = {"/test/{greeting}"})
 	public ModelAndView test(@PathVariable("greeting") String greeting) {		
