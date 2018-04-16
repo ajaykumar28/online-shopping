@@ -62,7 +62,10 @@ window.menu='${title}';
 				<%@include file="contact.jsp"%>
 			</c:if>
 			
-			
+			<!-- Load only when user clicks contact -->
+			<c:if test="${userClickAllProducts == true  or userClickCategoryProducts == true}">
+				<%@include file="listproducts.jsp"%>
+			</c:if>
 			
 			
 			

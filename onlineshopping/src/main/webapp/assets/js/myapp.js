@@ -4,13 +4,19 @@ $(function(){
 	{
 	
 	case'About Us':
-		$("#about").addClass('active');
+		$('#about').addClass('active');
 		break;
 	case'Contact us':
-		$("#contact").addClass('active');
+		$('#contact').addClass('active');
 		break;
+		
+	case'All Products':
+		$('#listproducts').addClass('active');
+		break;
+		
 	default:
-		$("#home").addClass('active');
+		$('#listproducts').addClass('active');
+		$('#a_'+menu).addClass('active');
 	break;
 	}
 	
