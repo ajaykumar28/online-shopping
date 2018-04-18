@@ -34,6 +34,7 @@ public class PageController {
 	public ModelAndView about() {		
 		ModelAndView mv = new ModelAndView("page");	
 		mv.addObject("title","About Us");
+
 		mv.addObject("userClickAbout",true);
 		
 	return mv;
