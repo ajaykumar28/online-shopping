@@ -38,7 +38,7 @@ public class HibernateConfig {
 			dataSource.setUrl(DATABASE_URL);
 			dataSource.setUsername(DATABASE_USERNAME);
 			dataSource.setPassword(DATABASE_PASSWORD);
-					
+		
 			
 			return dataSource;
 			
